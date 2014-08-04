@@ -1,0 +1,3 @@
+APPLICATION_NAME=Silent Hunter
+EXECUTABLE=Silent Hunter.exe
+MANIFEST=http://www.commerce.uct.ac.za/Services/CodeUnit/AutoUpdate/Silent Hunter/manifest.xml

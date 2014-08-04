@@ -1,0 +1,10 @@
+application_name = Silent Hunter
+application_excutable = AutoUpdate.exe
+application_icon = Application_Icon.ico
+application_splashimage = splash_image.jpg
+application_netmajorversion = 3
+application_netminorversion = 0
+application_buildnumber = 0
+application_colour = FFFFFF
+application_forecolour = 000000
+application_download = http://www.commerce.uct.ac.za/Services/CodeUnit/Microsoft%20.NET%20Framework/Microsoft%20.NET%20Framework%20Version%203.0%20Redistributable%20Package/dotnetfx3.exe

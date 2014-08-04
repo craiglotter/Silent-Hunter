@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DCPlusPlus>
+	<Settings>
+		<UploadSpeed type="string">0.005</UploadSpeed>
+		<ConfigVersion type="string">20</ConfigVersion>
+		<CID type="string">ML4WNB446FZV3MRBRNON4LTBBBBGN2GHLW42EWY</CID>
+		<CzertHiddenSettingA type="int">0</CzertHiddenSettingA>
+		<CzertHiddenSettingB type="int">0</CzertHiddenSettingB>
+		<ShowDescriptionSpeed type="int">0</ShowDescriptionSpeed>
+		<Away type="int">0</Away>
+		<BadSoftDetections type="int">1</BadSoftDetections>
+		<ShowDescriptionSlots type="int">1</ShowDescriptionSlots>
+		<ShowDescriptionLimit type="int">1</ShowDescriptionLimit>
+		<ShowWinampControl type="int">0</ShowWinampControl>
+		<PGOn type="int">0</PGOn>
+		<TotalUpload type="int64">0</TotalUpload>
+		<TotalDownload type="int64">0</TotalDownload>
+	</Settings>
+	<Share/>
+	<NoShare/>
+	<PreviewApps/>
+</DCPlusPlus>

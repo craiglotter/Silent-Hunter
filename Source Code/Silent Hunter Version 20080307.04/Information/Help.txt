@@ -1,0 +1,37 @@
+The rise in illegal P2P applications on the UCT network is cause for alarm, especially when students start abusing the lab machines for their own purposes. Silent Hunter is an application that has been written to run in the background on a lab machine and kill any recognisable P2P application instance should it be started up. 
+
+Processes are stopped by checking running process names against a wishlist of processes to be killed.
+
+Silent Hunter also logs all kills with the Commerce webserver, attempting to log time of instance, current Novell user, the process killed, the machine's primary IP and MAC addresses as well as the machine's name.
+
+Note that it runs the check every 5 seconds.
+
+The processes that Silent Hunter looks for are listed in the "ProcessList.txt" file located in the main application folder. An example of its contexts would be as follows:
+
+StrongDC.exe
+PeerWeb DC++.exe
+ApexDC.exe
+
+Note that you can extend the search by either prefixing or suffixing '*' to the process name (Wildcard Character). This means that 
+
+StrongDC*
+
+would match on 
+
+StrongDC++
+StrongDC.exe
+
+Silent Hunter also reports it's kill to the commerce webserver using the following URL:
+
+http://www.commerce.uct.ac.za/Services/Silent%20Hunter/Submit.asp?Page_Action=create&Novell_Account=####&Process_Name=####&Time_Stamp=####&IP_Address=####&MAC_Address=####&Machine_Name=####
+
+Note: Silent Hunter can be started with a display window by launching it like this
+
+Silent Hunter.exe show 
+
+or 
+
+Silent Hunter.exe /show
+
+
+-- Last Updated: 04/10/2007 --

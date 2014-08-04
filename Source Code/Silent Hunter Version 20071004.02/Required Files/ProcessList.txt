@@ -1,0 +1,11 @@
+StrongDC.exe
+PeerWeb DC++.exe
+ApexDC.exe
+StrongD*
+PeerWeb*
+ApexD*
+Quake3.exe
+Quake3*
+HL.exe
+HLDS.exe
+HLTV.exe
